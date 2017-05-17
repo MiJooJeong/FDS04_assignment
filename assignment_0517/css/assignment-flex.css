@@ -13,8 +13,6 @@
 .wrapper div {
     width: 200px;
     height: 150px;
-    /*flex: 1 0 auto;*/
-    background: palevioletred;
 }
 
 .wrapper div:nth-child(4n+1) {

@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 150px;
+    display: flex;
+    flex-flow: column wrap-reverse;
+}
+
+.wrapper div {
+    width: 200px;
+    height: 150px;
+    /*flex: 1 0 auto;*/
+    background: palevioletred;
+}
+
+.wrapper div:nth-child(4n+1) {
+    background: #999;
+}
+.wrapper div:nth-child(4n+2) {
+    background: #bbb;
+}
+.wrapper div:nth-child(4n+3) {
+    background: #ccc;
+}
+.wrapper div:nth-child(4n) {
+    background: #eee;
+}
+
+.wrapper div:nth-child(13), :nth-child(14), :nth-child(15), :nth-child(16) {
+    order: 9;    
+}
+.wrapper div:nth-child(6) {
+    order: 1;
+}
+.wrapper div:nth-child(8) {
+    order: 2;
+}
+.wrapper div:nth-child(9) {
+    order: 3;
+}
+.wrapper div:nth-child(10) {
+    order: 4;
+}
+.wrapper div:nth-child(5) {
+    order: 5;
+}
+.wrapper div:nth-child(7) {
+    order: 6;
+}
+.wrapper div:nth-child(11) {   
+    background: #999;
+    order: 7;
+}
+.wrapper div:nth-child(12) {
+    background: #bbb;
+    order: 8;
+}

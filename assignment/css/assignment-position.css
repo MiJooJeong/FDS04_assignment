@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 150px;
+    position: relative;
+}
+
+.wrapper div {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+}
+
+.wrapper div:nth-child(1), :nth-child(2), :nth-child(3), :nth-child(4) {
+    right: 0;
+}
+.wrapper div:nth-child(6), :nth-child(8), :nth-child(9), :nth-child(10) {
+    right: 200px;
+}
+.wrapper div:nth-child(5), :nth-child(7), :nth-child(11), :nth-child(12) {
+    right: 400px;
+}
+.wrapper div:nth-child(13), :nth-child(14), :nth-child(15), :nth-child(16) {
+    right: 600px;
+}
+
+.wrapper div:nth-child(1), :nth-child(5), :nth-child(6), :nth-child(13) {
+    top: 0;
+}
+.wrapper div:nth-child(2), :nth-child(7), :nth-child(8), :nth-child(14) {
+    top: 150px;
+}
+.wrapper div:nth-child(3), :nth-child(9), :nth-child(11), :nth-child(15) {
+    top: 300px;
+}
+.wrapper div:nth-child(4), :nth-child(10), :nth-child(12), :nth-child(16) {
+    top: 450px;
+}
+
+.wrapper div:nth-child(4n+1) {
+    background: #999;
+}
+.wrapper div:nth-child(4n+2) {
+    background: #bbb;
+}
+.wrapper div:nth-child(4n+3) {
+    background: #ccc;
+}
+.wrapper div:nth-child(4n) {
+    background: #eee;
+}
+.wrapper div:nth-child(11) {
+    background: #999;
+}
+.wrapper div:nth-child(12) {
+    background: #bbb;
+}

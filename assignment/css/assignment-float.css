@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 150px;
+}
+
+[class^="box"] div {
+    width: 200px;
+    height: 150px;
+}
+[class^="box"] div:nth-child(1) {
+    background: #999;
+}
+[class^="box"] div:nth-child(2) {
+    background: #bbb;
+}
+[class^="box"] div:nth-child(3) {
+    background: #ccc;
+}
+[class^="box"] div:nth-child(4) {
+    background: #eee;
+}
+
+.box-1 {
+    width: 25%;
+    float: right;
+}
+
+.box-2 {
+    width: 50%;
+    float: right;
+}
+.box-2 div {
+    float: left;
+}
+
+.box-3 {
+    width: 50%;
+    float: right;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+.box-4 {
+    width: 25%;
+}

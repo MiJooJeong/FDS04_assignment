@@ -28,11 +28,14 @@
     background: #eee;
 }
 
-.wrapper div:nth-child(13), :nth-child(14), :nth-child(15), :nth-child(16) {
-    order: 9;    
+.wrapper div:nth-child(5) {
+    order: 5;
 }
 .wrapper div:nth-child(6) {
     order: 1;
+}
+.wrapper div:nth-child(7) {
+    order: 6;
 }
 .wrapper div:nth-child(8) {
     order: 2;
@@ -43,12 +46,6 @@
 .wrapper div:nth-child(10) {
     order: 4;
 }
-.wrapper div:nth-child(5) {
-    order: 5;
-}
-.wrapper div:nth-child(7) {
-    order: 6;
-}
 .wrapper div:nth-child(11) {   
     background: #999;
     order: 7;
@@ -56,4 +53,7 @@
 .wrapper div:nth-child(12) {
     background: #bbb;
     order: 8;
+}
+.wrapper div:nth-child(13), :nth-child(14), :nth-child(15), :nth-child(16) {
+    order: 9;    
 }
